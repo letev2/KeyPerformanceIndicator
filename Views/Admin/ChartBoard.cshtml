@@ -4,78 +4,113 @@
   Layout = "_DashBoard";
 }
 
-<div class="content-body">
-  <div class="container-fluid">
 
-    <div class="col-lg-6 col-sm-6">
-      <div class="card">
-        <div class="card-header">
-          <h4 class="card-title">Basic Bar Chart Update </h4>
-        </div>
-        <div class="card-body">
-          <canvas id="barChart_1"></canvas>
-        </div>
-      </div>
+@* <div class="col-lg-6">
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Bar CHart</h5>
+
+      <!-- Bar Chart -->
+      <canvas id="barChart" style="max-height: 400px;"></canvas>
+      <script>
+        var employeefullname = @Html.Raw(Json.Serialize(ViewBag.FULLNAME));
+        var employeesumtotal = @Html.Raw(Json.Serialize(ViewBag.SUMTOTAL));
+        window.alert(employeefullname);
+        window.alert(employeesumtotal);
+
+        document.addEventListener("DOMContentLoaded", () => {
+          new Chart(document.querySelector('#barChart'), {
+            type: 'bar',
+            data: {
+              labels: employeesumtotal,
+              datasets: [{
+                label: 'Bar Chart',
+                data: employeefullname,
+                backgroundColor: [
+                  'rgba(255, 99, 132, 0.2)',
+                  'rgba(255, 159, 64, 0.2)',
+                  'rgba(255, 205, 86, 0.2)',
+                  'rgba(75, 192, 192, 0.2)',
+                  'rgba(54, 162, 235, 0.2)',
+                  'rgba(153, 102, 255, 0.2)',
+                  'rgba(201, 203, 207, 0.2)'
+                ],
+                borderColor: [
+                  'rgb(255, 99, 132)',
+                  'rgb(255, 159, 64)',
+                  'rgb(255, 205, 86)',
+                  'rgb(75, 192, 192)',
+                  'rgb(54, 162, 235)',
+                  'rgb(153, 102, 255)',
+                  'rgb(201, 203, 207)'
+                ],
+                borderWidth: 1
+              }]
+            },
+            options: {
+              scales: {
+                y: {
+                  beginAtZero: true
+                }
+              }
+            }
+          });
+        });
+      </script>
+      <!-- End Bar CHart -->
+
     </div>
   </div>
-</div>
+</div> *@
 
+<script>
 
+var chartData = {
+    labels: ["January", "February", "March", "April", "May", "June"],
+    datasets: [
+        {
+            fillColor: "#79D1CF",
+            strokeColor: "#79D1CF",
+            data: [60, 80, 81, 56, 55, 40]
+        }
+    ]
+};
 
- <div class="col-lg-6">
-  <div class="card">
-  <div class="card-body">
-  <h5 class="card-title">Bar CHart</h5>
+var ctx = document.getElementById("myChart1").getContext("2d");
+var myLine = new Chart(ctx).Line(chartData, {
+    showTooltips: false,
+    onAnimationComplete: function () {
 
-  <!-- Bar Chart -->
-  <canvas id="barChart" style="max-height: 400px;"></canvas>
-  <script>
-  var employeefullname = @Html.Raw(Json.Serialize(ViewBag.FULLNAME));
-  var employeesumtotal = @Html.Raw(Json.Serialize(ViewBag.SUMTOTAL));
-  window.alert(employeefullname);
-  window.alert(employeesumtotal);
+        var ctx = this.chart.ctx;
+        ctx.font = this.scale.font;
+        ctx.fillStyle = this.scale.textColor
+        ctx.textAlign = "center";
+        ctx.textBaseline = "bottom";
 
-  document.addEventListener("DOMContentLoaded", () => {
-  new Chart(document.querySelector('#barChart'), {
-  type: 'bar',
-  data: {
-  labels: employeesumtotal,
-  datasets: [{
-  label: 'Bar Chart',
-  data: employeefullname,
-  backgroundColor: [
-  'rgba(255, 99, 132, 0.2)',
-  'rgba(255, 159, 64, 0.2)',
-  'rgba(255, 205, 86, 0.2)',
-  'rgba(75, 192, 192, 0.2)',
-  'rgba(54, 162, 235, 0.2)',
-  'rgba(153, 102, 255, 0.2)',
-  'rgba(201, 203, 207, 0.2)'
-  ],
-  borderColor: [
-  'rgb(255, 99, 132)',
-  'rgb(255, 159, 64)',
-  'rgb(255, 205, 86)',
-  'rgb(75, 192, 192)',
-  'rgb(54, 162, 235)',
-  'rgb(153, 102, 255)',
-  'rgb(201, 203, 207)'
-  ],
-  borderWidth: 1
-  }]
-  },
-  options: {
-  scales: {
-  y: {
-  beginAtZero: true
-  }
-  }
-  }
-  });
-  });
-  </script>
-  <!-- End Bar CHart --> 
+        this.datasets.forEach(function (dataset) {
+            dataset.points.forEach(function (points) {
+                ctx.fillText(points.value, points.x, points.y - 10);
+            });
+        })
+    }
+});
 
-  </div>
-  </div>
-  </div> 
+var ctx = document.getElementById("myChart2").getContext("2d");
+var myBar = new Chart(ctx).Bar(chartData, {
+    showTooltips: false,
+    onAnimationComplete: function () {
+
+        var ctx = this.chart.ctx;
+        ctx.font = this.scale.font;
+        ctx.fillStyle = this.scale.textColor
+        ctx.textAlign = "center";
+        ctx.textBaseline = "bottom";
+
+        this.datasets.forEach(function (dataset) {
+            dataset.bars.forEach(function (bar) {
+                ctx.fillText(bar.value, bar.x, bar.y - 5);
+            });
+        })
+    }
+});
+</script>

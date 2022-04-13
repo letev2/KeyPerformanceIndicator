@@ -15,9 +15,9 @@ namespace KpiNew.Controllers
     public class UserController : Controller
     {
         private readonly IUserService _userService;
-        public UserController( IUserService userService)
+        public UserController(IUserService userService)
         {
-            _userService = userService; 
+            _userService = userService;
         }
 
         public async Task<IActionResult> Index()
@@ -25,12 +25,12 @@ namespace KpiNew.Controllers
             var user = await _userService.GetAllUser();
             if (user == null)
             {
-                return NotFound();  
+                return NotFound();
             }
             return View();
         }
 
-       
+
 
         [HttpGet]
         public async Task<IActionResult> Details(int id)
@@ -71,10 +71,10 @@ namespace KpiNew.Controllers
                     new Claim(ClaimTypes.Name, user.Data.FirstName),
                     new Claim(ClaimTypes.GivenName, $"{user.Data.FirstName} {user.Data.LastName}"),
                    new Claim(ClaimTypes.NameIdentifier, user.Data.Id.ToString()),
-                    new Claim(ClaimTypes.Email, user.Data.Email),                 
-                  
+                    new Claim(ClaimTypes.Email, user.Data.Email),
+
                 };
-                foreach (var  role in user.Data.Roles)
+                foreach (var role in user.Data.Roles)
                 {
 
                     claims.Add(new Claim(ClaimTypes.Role, role.Name));
@@ -98,7 +98,7 @@ namespace KpiNew.Controllers
                     }
                 }
 
-                return RedirectToAction("Index");   
+                return RedirectToAction("Index");
             }
 
             else
@@ -115,7 +115,7 @@ namespace KpiNew.Controllers
         public IActionResult Logout()
         {
             HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
-            return RedirectToAction("Home","Index");
+            return RedirectToAction("Home", "Index");
         }
 
     }
