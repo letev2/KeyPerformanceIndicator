@@ -1,0 +1,103 @@
+﻿
+@{
+    Layout = "_Employee";
+}
+@model KpiNew.Dto.EmployeeRatingPerformance
+@using KpiNew.Enum
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class=" card col-md-6">
+            <div class="card-body ">
+                <div class="bg-light">
+                    <h1 class="tagcolor" style="color:forestgreen">Calculate Kpi</h1>
+                    <p class="tagcolor" style="color:mediumblue">Please fill in this form to Check Kpi.</p>
+                    <hr class="tagcolor" style="color:mediumblue">
+
+                </div>
+                <form asp-action="ShowEmployeeKpiForMonthDetails" asp-controller="Employee"
+                    enctype="multipart/form-data">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-row">
+                        <div class="form-group col-sm-6">
+                            <label asp-for="Month" class="control-label"></label>
+                            <select asp-for="Month" asp-items="@Html.GetEnumSelectList(typeof(Month))"
+                                required></select> <span asp-validation-for="Month" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group col-sm-6">
+                            <label asp-for="Year" class="control-label"></label>
+                            <input asp-for="Year" class="form-control" />
+                            <span asp-validation-for="Year" class="text-danger"></span>
+                        </div>
+
+
+                    </div>
+
+
+
+                    <div class="form-group ">
+                        <input href="#myModal" type="submit" value="Submit"
+                            class="btn btn-success trigger-btn col-sm-12" data-toggle="modal" />
+                    </div>
+
+                </form>
+
+
+
+
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class=" card col-md-6">
+            <div class="card-body ">
+                <div class="bg-light">
+                    <h1 class="tagcolor" style="color:forestgreen">Calculate Kpi</h1>
+                    <p class="tagcolor" style="color:mediumblue">Please fill in this form to Check Kpi For Year.</p>
+                    <hr class="tagcolor" style="color:mediumblue">
+
+                </div>
+                <form asp-action="ShowEmployeeKpiForYearDetails" asp-controller="Employee"
+                    enctype="multipart/form-data">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-row">
+                        <div class="form-group col-sm-6">
+                            <label asp-for="Year" class="control-label"></label>
+                            <input asp-for="Year" type="year" class="form-control" />
+                            <span asp-validation-for="Year" class="text-danger"></span>
+                        </div>
+
+
+                    </div>
+
+
+
+                    <div class="form-group ">
+                        <input href="#myModal" type="submit" value="Submit"
+                            class="btn btn-success trigger-btn col-sm-12" data-toggle="modal" />
+                    </div>
+
+                </form>
+
+
+
+
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+@* 
+
+@section Scripts {
+@{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+} *@

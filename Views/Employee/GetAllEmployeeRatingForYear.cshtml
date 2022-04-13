@@ -1,0 +1,53 @@
+﻿
+@{
+    Layout = "_DashBoard"; 
+ }
+
+@model IEnumerable<KpiNew.Dto.EmployeeDto>
+
+<div class="card-header" style="background-color:green;">
+    <div class="card-title">
+        <h1 class="text-center" style="white">All Employee Rating For Month </h1>
+    </div>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+         
+
+           
+             <th>
+                @Html.DisplayNameFor(model => model.FullName)
+            </th>
+           
+           <th>
+                @Html.DisplayNameFor(model => model.SumTotal)
+            </th>
+           
+
+
+
+          
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var employee in Model)
+        {
+            <tr>
+
+                <td>
+                    @Html.DisplayFor(modelItem => employee.FullName)
+                </td>
+                  <td>
+                    @Html.DisplayFor(modelItem => employee.SumTotal)
+                </td>
+             
+
+               
+            </tr>
+        }
+    </tbody>
+</table>
+<button style="background-color:wheat;"><a asp-controller="Employee" asp-action="Index"> Back </a> </button>
+

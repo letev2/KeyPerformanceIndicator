@@ -1,0 +1,48 @@
+﻿@{
+    Layout = "_DashBoard"; 
+ }
+
+
+@model  KpiNew.Dto.AdminDto
+
+@using Microsoft.AspNetCore.Http;
+
+<dl class="row">
+    <dt class="col-sm-2">
+        FirstName:
+    </dt>
+    <dd class="col-sm-10">
+        @Model.FirstName
+    </dd>
+    <dt class="col-sm-2">
+        LastName:
+    </dt>
+    <dd class="col-sm-10">
+        @Model.LastName
+    </dd>
+    <dt class="col-sm-2">
+        Email:
+    </dt>
+    <dd class="col-sm-10">
+        @Model.Email
+    </dd>
+    <dt class="col-sm-2">
+        Phone:
+    </dt>
+    <dd class="col-sm-10">
+        @Model.PhoneNumber
+    </dd>
+     
+    <dt class="col-sm-2">
+        Photo:
+    </dt>
+    <dd class="col-sm-10">
+        <img class="card-img" style="width: 100px; height: 100px;" src="~/adminPhotos/@Model.AdminImage">
+    </dd>
+    
+
+</dl>
+
+
+<button style="background-color:wheat;"><a asp-controller="Admin" asp-action="AdminDashBoard">Back To Admin Dashboard </a> </button>
+

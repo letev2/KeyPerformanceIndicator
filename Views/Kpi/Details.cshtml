@@ -1,0 +1,74 @@
+﻿@model KpiNew.Dto.KpiDto
+@{
+    Layout = "_DashBoard";
+}
+
+
+<h1>Details</h1>
+
+<dl class="row">
+
+    <dt class="col-sm-2">
+        Id:
+    </dt>
+    <dd class="col-sm-10">
+        @Model.Id
+    </dd>
+
+
+    <dt class="col-sm-2">
+        Name:
+    </dt>
+    <dd class="col-sm-10">
+        @Model.Name
+    </dd>
+
+    <dt class="col-sm-2">
+        Rating:
+    </dt>
+    <dd class="col-sm-10">
+        @Model.Rating
+    </dd>
+
+    <dt class="col-sm-2">
+        EmployeeFirstName:
+    </dt>
+    @foreach (var item in Model.Employee)
+    {
+        <dd class="col-sm-10">
+            @item.FirstName
+        </dd>
+
+        <dt class="col-sm-2">
+            EmployeeLast:
+        </dt>
+
+        <dd class="col-sm-10">
+            @item.LastName
+        </dd>
+
+        <dt class="col-sm-2">
+            Department:
+        </dt>
+
+        <dd class="col-sm-10">
+            @item.Department
+        </dd>
+
+        <dt class="col-sm-2">
+            Sumtotal:
+        </dt>
+
+        <dd class="col-sm-10">
+            @item.SumTotal
+        </dd>
+
+        
+
+        
+    }
+
+
+</dl>
+
+<button style="background-color:darkblue;"><a asp-action="Index">Back to List</a></button>

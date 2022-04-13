@@ -1,0 +1,88 @@
+﻿@model KpiNew.Dto.EmployeeDto
+
+
+@{
+    Layout = "_Employee";
+}
+<dl class="row">
+    <dt class="col-sm-2">
+        FirstName:
+    </dt>
+    <dd class="col-sm-10">
+        @Model.FirstName
+    </dd>
+
+    <dt class="col-sm-2">
+        LastName:
+    </dt>
+    <dd class="col-sm-10">
+        @Model.LastName
+    </dd>
+
+    <dt class="col-sm-2">
+        DateOfBirth:
+    </dt>
+    <dd class="col-sm-10">
+        @Model.DateOfBirth
+    </dd>
+
+    <dt class="col-sm-2">
+        Email:
+    </dt>
+    <dd class="col-sm-10">
+        @Model.Email
+    </dd>
+
+    <dt class="col-sm-2">
+        Gender:
+    </dt>
+    <dd class="col-sm-10">
+        @Model.Gender
+    </dd>
+
+    <dt class="col-sm-2">
+        PhoneNumber:
+    </dt>
+    <dd class="col-sm-10">
+        @Model.PhoneNumber
+    </dd>
+
+    <dt class="col-sm-2">
+        Address:
+    </dt>
+    <dd class="col-sm-10">
+        @Model.Address
+    </dd>
+    <dt class="col-sm-2">
+        City:
+    </dt>
+    <dd class="col-sm-10">
+        @Model.City
+    </dd>
+
+    <dt class="col-sm-2">
+        DepartmentName:
+    </dt>
+    <dd class="col-sm-10">
+        @Model.Department.Name
+    </dd>
+
+    <dt class="col-sm-2">
+        Department Description:
+    </dt>
+
+     <dd class="col-sm-10">
+        @Model.Department.Description
+    </dd>
+
+   <dt class="col-sm-2">
+        Admin Photo:
+    </dt>
+    <dd class="col-sm-10">
+        <img class="card-img" style="height:100px; width:100px" src="~/EmployeeImage/@Model..EmployeeImage"/>
+    </dd>
+
+
+</dl>
+
+<button style="background-color:darkblue;"> <a asp-action="Home"> Back</a> </button>

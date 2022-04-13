@@ -1,0 +1,65 @@
+﻿@{
+    Layout = "_DashBoard"; 
+ }
+
+@model KpiNew.Dto.DepartmentDto
+  
+<dl class="row">
+    <dt class="com-sm-2">
+        Instructor Name :
+    </dt>
+
+    <dd class="com-sm-10">
+        @Model.Name
+        
+    </dd>
+
+    <dt class="com-sm-2">
+        DepartmentName :
+    </dt>
+
+    <dd class="com-sm-10">
+        @Model.Description
+    </dd>
+
+    <dt class="com-sm-2">
+        EmployeeNames :
+    </dt>
+
+    @foreach (var employee in Model.Employee)
+    {
+        <dd class="col-sm-10">
+            @employee.FirstName
+        </dd>
+
+        <dd class="col-sm-10">
+            @employee.LastName
+        </dd>
+
+        <dd class="col-sm-10">
+            @employee.Department
+        </dd>
+
+        <dd class="col-sm-10">
+            @employee.Gender
+        </dd>
+        
+        <dd class="col-sm-10">
+            @employee.Address
+        </dd>
+        <dd class="col-sm-10">
+            @employee.City
+        </dd>
+        <dd class="col-sm-10">
+            @employee.PhoneNumber
+        </dd>
+        <dd class="col-sm-10">
+            @employee.SumTotal
+        </dd>
+      
+
+    }
+
+</dl>
+
+

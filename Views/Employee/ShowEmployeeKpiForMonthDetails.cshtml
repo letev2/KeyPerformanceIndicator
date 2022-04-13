@@ -1,0 +1,33 @@
+@model KpiNew.Dto.EmployeeDto
+
+
+@{
+    Layout = "_Employee";
+}
+<div class="content-body">
+    <!-- row -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3 col-sm-6">
+                
+                    <dt class="col-sm-2">
+                        SumTotal: @Model.SumTotal
+                    </dt>
+                    <dd class="col-sm-10">
+                        @Model.SumTotal
+                    </dd>
+
+                    <dt class="col-sm-2">
+                        FullName:
+                    </dt>
+                    <dd class="col-sm-10">
+                        @Model.FullName
+                    </dd>
+                
+
+                <button style="background-color:darkblue;"> <a asp-action="Profile"> Back</a> </button>
+
+            </div>
+        </div>
+    </div>
+</div>
