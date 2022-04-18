@@ -128,7 +128,7 @@ namespace KpiNew.Controllers
              var admin =  await _adminService.GetAdminById(admins.Data.Id);
             return View(admin.Data);
         }
-
+        
         [HttpGet]
         public async Task<IActionResult> ChartBoard()
         {

@@ -79,6 +79,7 @@ namespace KpiNew.Implementations.Service
                     
 
                 };
+                
                 var kpi = await _kpiRepository.GetSelected(model.ListOfKpis);
                 foreach (var item in kpi)
                 {

@@ -35,7 +35,6 @@ namespace KpiNew.Controllers
 
 
         [HttpGet]
-
         public async Task<IActionResult> Details(int id)
         {
             var kpi = await _kpiService.GetKpiById(id);

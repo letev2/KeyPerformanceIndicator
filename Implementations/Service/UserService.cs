@@ -120,7 +120,8 @@ namespace KpiNew.Implementations.Service
         {
             var user = await _userRepository.GetByEmail(model.Email);
 
-            if (user == null || user.Password !=model.Password ) return new BaseRespond<UserDto>
+            if (user == null || user.Password !=model.Password )
+             return new BaseRespond<UserDto>
             {
                 Message = "Invalid Email Or Password",
                 Success = false,
