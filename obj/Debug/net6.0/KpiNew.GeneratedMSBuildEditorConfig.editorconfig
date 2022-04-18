@@ -8,205 +8,209 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = KpiNew
 build_property.RootNamespace = KpiNew
-build_property.ProjectDir = C:\Users\BDUL LATEEF\Desktop\KPIMVC\KpiNew\KpiNew\
+build_property.ProjectDir = c:\Users\BDUL LATEEF\Desktop\KPIMVC\KpiNew\KpiNew\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\BDUL LATEEF\Desktop\KPIMVC\KpiNew\KpiNew
+build_property.MSBuildProjectDirectory = c:\Users\BDUL LATEEF\Desktop\KPIMVC\KpiNew\KpiNew
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Admin/AdminDashBoard.cshtml]
+[c:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Admin/AdminDashBoard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5EYXNoQm9hcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Admin/ChartBoard.cshtml]
+[c:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Admin/ChartBoard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2hhcnRCb2FyZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Admin/Create.cshtml]
+[c:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Admin/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Admin/Delete.cshtml]
+[c:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Admin/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Admin/Details.cshtml]
+[c:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Admin/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Admin/Index.cshtml]
+[c:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Admin/Profile.cshtml]
+[c:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Admin/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUHJvZmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Admin/Update.cshtml]
+[c:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Admin/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Department/Create.cshtml]
+[c:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Department/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Department/Delete.cshtml]
+[c:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Department/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Department/Details.cshtml]
+[c:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Department/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Department/Index.cshtml]
+[c:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Department/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Department/Update.cshtml]
+[c:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Department/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Employee/CalculateEmployeeKpi.cshtml]
+[c:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Employee/CalculateEmployeeKpi.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQ2FsY3VsYXRlRW1wbG95ZWVLcGkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Employee/Create.cshtml]
+[c:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Employee/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Employee/Delete.cshtml]
+[c:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Employee/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Employee/Details.cshtml]
+[c:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Employee/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Employee/EmployeeDashBoard.cshtml]
+[c:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Employee/EmployeeDashBoard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRW1wbG95ZWVEYXNoQm9hcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Employee/GetAllEmployeeRatingForYear.cshtml]
+[c:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Employee/GetAllEmployeeRatingForYear.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcR2V0QWxsRW1wbG95ZWVSYXRpbmdGb3JZZWFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Employee/Index.cshtml]
+[c:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Employee/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Employee/Performance.cshtml]
+[c:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Employee/Performance.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcUGVyZm9ybWFuY2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Employee/Profile.cshtml]
+[c:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Employee/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcUHJvZmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Employee/ShowEmployeeKpiForMonthDetails.cshtml]
+[c:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Employee/ShowEmployeeKpiForMonthDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcU2hvd0VtcGxveWVlS3BpRm9yTW9udGhEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Employee/ShowEmployeeKpiForYearDetails.cshtml]
+[c:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Employee/ShowEmployeeKpiForYearDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcU2hvd0VtcGxveWVlS3BpRm9yWWVhckRldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Employee/Update.cshtml]
+[c:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Employee/Table.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcVGFibGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Employee/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Home/Index.cshtml]
+[c:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Home/Privacy.cshtml]
+[c:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Kpi/Create.cshtml]
+[c:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Kpi/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3BpXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Kpi/Delete.cshtml]
+[c:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Kpi/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3BpXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Kpi/Details.cshtml]
+[c:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Kpi/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3BpXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Kpi/GetEmployeeKpiList.cshtml]
+[c:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Kpi/GetEmployeeKpiList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3BpXEdldEVtcGxveWVlS3BpTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Kpi/Index.cshtml]
+[c:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Kpi/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3BpXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Kpi/Update.cshtml]
+[c:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Kpi/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3BpXFVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Role/Create.cshtml]
+[c:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Role/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Role/Delete.cshtml]
+[c:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Role/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Role/Index.cshtml]
+[c:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Role/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Role/Update.cshtml]
+[c:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Role/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Shared/Error.cshtml]
+[c:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Shared/_DashBoard.cshtml]
+[c:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Shared/_DashBoard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9EYXNoQm9hcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Shared/_Employee.cshtml]
+[c:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Shared/_Employee.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9FbXBsb3llZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Shared/_Layout.cshtml]
+[c:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Shared/_LayoutHomepage.cshtml]
+[c:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Shared/_LayoutHomepage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRIb21lcGFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/User/Details.cshtml]
+[c:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/User/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/User/Index.cshtml]
+[c:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/User/Login.cshtml]
+[c:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/User/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/User/Profile.cshtml]
+[c:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/User/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/_ViewImports.cshtml]
+[c:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/_ViewStart.cshtml]
+[c:/Users/BDUL LATEEF/Desktop/KPIMVC/KpiNew/KpiNew/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

@@ -1,0 +1,68 @@
+@* @model KpiNew.Dto.EmployeeKpiDto
+
+<table id="myTbl" class="display nowrap table-sm table-striped table-hover table-bordered" >
+<thead>
+    <tr>
+        <th>Col1</th>
+        <th>Col2</th>
+        <th>Col3</th>
+        <th>Col4</th>
+        <th>Col5</th>
+        <th>Col6</th>
+    </tr>
+</thead>
+<tbody>
+    @foreach (var prop in Model.Employee.Address)
+    {
+    <tr>
+        <td>@prop.Unitid</td>
+        <td>
+            <input type="checkbox" checked="@Model.Method1(prop.Unitid)" />
+        </td>
+        <td>
+            <input type="checkbox" checked="@Model.Method2(prop.Unitid)" />
+        </td>
+        <td>
+            <input type="text" placeholder="@Model.Method3(prop.Unitid)" />
+        </td>
+        <td>
+            <input type="text" placeholder="@Model.Method4(prop.Unitid)" />
+        </td>
+        <td>
+            <div class="custom-control custom-checkbox custom-control-inline">
+                <input type="checkbox" id="@("checkBoxV" + prop.Unitid)" class="custom-control-input" checked="@Model.Method5(prop.Unitid, "V")" />
+                <label class="custom-control-label" for="@("checkBoxV" + prop.Unitid)">V</label>
+            </div>
+            <div class="custom-control custom-checkbox custom-control-inline">
+                <input type="checkbox" id="@("checkBoxW" + prop.Unitid)" class="custom-control-input" checked="@Model.Method5(prop.Unitid, "W")" />
+                <label class="custom-control-label" for="@("checkBoxW" + prop.Unitid)">W</label>
+            </div>
+            <div class="custom-control custom-checkbox custom-control-inline">
+                <input type="checkbox" id="@("checkBoxS" + prop.Unitid)" class="custom-control-input" checked="@Model.Method5(prop.Unitid, "S")" />
+                <label class="custom-control-label" for="@("checkBoxS" + prop.Unitid)">S</label>
+            </div>
+            <div class="custom-control custom-checkbox custom-control-inline">
+                <input type="checkbox" id="@("checkBoxP" + prop.Unitid)" class="custom-control-input" checked="@Model.Method5(prop.Unitid, "P")" />
+                <label class="custom-control-label" for="@("checkBoxP" + prop.Unitid)">P</label>
+            </div>
+            <div class="custom-control custom-checkbox custom-control-inline">
+                <input type="checkbox" id="@("checkBoxA" + prop.Unitid)" class="custom-control-input" checked="@Model.Method5(prop.Unitid, "A")" />
+                <label class="custom-control-label" for="@("checkBoxA" + prop.Unitid)">A</label>
+            </div>
+            <div class="custom-control custom-checkbox custom-control-inline">
+                <input type="checkbox" id="@("checkBoxM" + prop.Unitid)" class="custom-control-input" checked="@Model.Method5(prop.Unitid, "M")" />
+                <label class="custom-control-label" for="@("checkBoxM" + prop.Unitid)">M</label>
+            </div>
+            <div class="custom-control custom-checkbox custom-control-inline">
+                <input type="checkbox" id="@("checkBoxU" + prop.Unitid)" class="custom-control-input" checked="@Model.Method5(prop.Unitid, "U")" />
+                <label class="custom-control-label" for="@("checkBoxU" + prop.Unitid)">U</label>
+            </div>
+            <div class="custom-control custom-checkbox custom-control-inline">
+                <input type="checkbox" id="@("checkBoxD" + prop.Unitid)" class="custom-control-input" checked="@Model.Method5(prop.Unitid, "D")" />
+                <label class="custom-control-label" for="@("checkBoxD" + prop.Unitid)">D</label>
+            </div>
+        </td>
+    </tr>
+    }
+
+</tbody> *@
